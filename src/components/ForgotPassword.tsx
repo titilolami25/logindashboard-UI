@@ -21,12 +21,12 @@ const ForgotPassword: React.FC = () => {
   };
 
   return (
-    <div className="w-full max-w-md">
-      <div className="text-center mt-8">
-      <img src="/assets/filuick.png" alt="Filuick" className="mx-auto w-24 h-10" />
+    <div className="min-w-80 max-w-md">
+      <div className="text-left mt-8">
+      <h3><em><strong>SCI</strong></em></h3>
       </div>
-      <form onSubmit={handleSubmit} className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
-        <h2 className="text-2xl mb-6 text-center font-bold">Forgot Password</h2>
+      <form onSubmit={handleSubmit} className="bg-white shadow-md rounded px-4 pt-6 pb-8 mb-4">
+        <h2 className="text-sm mb-5 text-center font-bold">Forgot Password</h2>
         <div className="mb-4">
           <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email">
             Email

@@ -1,13 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-
-
 // Awesome Icons
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-
-
-
 
 const Login: React.FC = () => {
   const [formData, setFormData] = useState({
